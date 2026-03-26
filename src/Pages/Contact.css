@@ -1,0 +1,77 @@
+/* Container */
+.contact-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font-family: "Poppins", "Arial", sans-serif;
+  color: #333;
+}
+
+/* Page Heading */
+.contact-container h1 {
+    margin-top: 10%;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #3d2c2e;
+}
+
+.our {
+    text-align: center;
+}
+
+/* Intro paragraph */
+.contact-container p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+/* Content wrapper */
+.contact-content {
+    margin-top: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  background: #f9f9f9;
+  padding: 40px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Details */
+.contact-details {
+    /* margin-top: 10%; */
+  flex: 1;
+  min-width: 280px;
+}
+
+.contact-details h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #5a3b3f;
+  font-weight: 500;
+}
+
+.contact-details p {
+  font-size: 17px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+/* Strong labels for Phone/Email/Address */
+.contact-details p strong {
+  color: #3d2c2e;
+}
+
+/* Optional: Add subtle icon before each contact detail (modern look) */
+.contact-details p::before {
+  content: "• "; /* simple bullet as icon */
+  color: #d4af37;
+  font-weight: bold;
+  display: inline-block;
+  width: 20px;
+}

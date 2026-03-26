@@ -1,0 +1,94 @@
+/* Base navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 90px;
+  z-index: 10;
+  /* transition: background 0.3s ease; */
+}
+
+/* Transparent navbar on home page */
+.navbar-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+
+/* Solid navbar on other pages */
+.navbar-solid {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+/* Brand name */
+.brand-text {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Menu links */
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav .nav-link {
+  text-decoration: none;
+  color: rgb(25, 23, 23);
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s;
+ 
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d4af37;
+}
+
+/* Buttons */
+.d-flex .btn {
+  margin-left: 20px;
+  padding: 8px 18px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* Transparent Navbar on Home page */
+.overlay-navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  z-index: 10;
+}
+
+/* Solid Navbar on other pages */
+.normal-navbar ,.nav-link{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+background-color: rgb(189, 3, 3);
+  z-index: 10;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #fdd803;
+}
+
+.brand-text {
+  font-family: 'Playfair Display', serif;
+
+}

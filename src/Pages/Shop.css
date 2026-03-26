@@ -1,0 +1,31 @@
+.shop-container {
+    margin-top: 4% ;
+    margin-bottom: 6%;
+  text-align: center;
+  padding: 50px;
+}
+
+.shop-container h2 {
+  margin-bottom: 30px;
+}
+
+/* 3 images in row */
+.shop-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Image style */
+.shop-images img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.shop-images img:hover {
+  transform: scale(1.05);
+}
