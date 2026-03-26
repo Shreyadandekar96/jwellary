@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/jwellary/static/css/main.3708313d.css",
+    "main.js": "/jwellary/static/js/main.8a47e519.js",
+    "static/js/453.c28e051b.chunk.js": "/jwellary/static/js/453.c28e051b.chunk.js",
+    "static/media/ring.jpg": "/jwellary/static/media/ring.af2e7ce6b6a797e1f283.jpg",
+    "static/media/necklace.jpg": "/jwellary/static/media/necklace.a77e4dee5fc8468b71c3.jpg",
+    "static/media/earring.jpg": "/jwellary/static/media/earring.4230b61434878776fd83.jpg",
+    "static/media/img1.png": "/jwellary/static/media/img1.75685066b59e12d18a71.png",
+    "index.html": "/jwellary/index.html",
+    "main.3708313d.css.map": "/jwellary/static/css/main.3708313d.css.map",
+    "main.8a47e519.js.map": "/jwellary/static/js/main.8a47e519.js.map",
+    "453.c28e051b.chunk.js.map": "/jwellary/static/js/453.c28e051b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3708313d.css",
+    "static/js/main.8a47e519.js"
+  ]
+}
